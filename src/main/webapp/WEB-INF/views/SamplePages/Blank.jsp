@@ -281,40 +281,40 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/Charts/FloatChart">Flot Charts</a>
+                                    <a href="/blog/Charts/FloatChart">Flot Charts</a>
                                 </li>
                                 <li>
-                                    <a href="/Charts/MorrisChart">Morris.js Charts</a>
+                                    <a href="/blog/Charts/MorrisChart">Morris.js Charts</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="/Table/Tables"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            <a href="/blog/Table/Tables"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li>
                         <li>
-                            <a href="/Form/Form"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            <a href="/blog/Form/Form"><i class="fa fa-edit fa-fw"></i> Forms</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/UiElement/PanelsWells">Panels and Wells</a>
+                                    <a href="/blog/UiElement/PanelsWells">Panels and Wells</a>
                                 </li>
                                 <li>
-                                    <a href="/UiElement/Buttons">Buttons</a>
+                                    <a href="/blog/UiElement/Buttons">Buttons</a>
                                 </li>
                                 <li>
-                                    <a href="/UiElement/Notifications">Notifications</a>
+                                    <a href="/blog/UiElement/Notifications">Notifications</a>
                                 </li>
                                 <li>
-                                    <a href="/UiElement/Typography">Typography</a>
+                                    <a href="/blog/UiElement/Typography">Typography</a>
                                 </li>
                                 <li>
-                                    <a href="/UiElement/Icons"> Icons</a>
+                                    <a href="/blog/UiElement/Icons"> Icons</a>
                                 </li>
                                 <li>
-                                    <a href="/UiElement/Grid">Grid</a>
+                                    <a href="/blog/UiElement/Grid">Grid</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -353,10 +353,10 @@
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/SamplePages/Blank">Blank Page</a>
+                                    <a href="/blog/SamplePages/Blank">Blank Page</a>
                                 </li>
                                 <li>
-                                    <a href="/Login/Login">Login Page</a>
+                                    <a href="/blog/Login/Login">Login Page</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
