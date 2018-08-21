@@ -55,7 +55,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">SB Admin v2.0</a>
+			<a class="navbar-brand" href="/">0a51s</a>
 		</div>
 		<!-- /.navbar-header -->
 
@@ -249,17 +249,17 @@
 							</span>
 						</div> <!-- /input-group -->
 					</li>
-					<li><a href="/"><i class="fa fa-dashboard fa-fw"></i>
-							Dashboard</a></li>
+					<li><a href="/blog"><i class="fa fa-dashboard fa-fw"></i>
+							Home</a></li>
 					<li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>
 							Charts<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
-							<li><a href="/blog/Charts/FloatChart">Flot Charts</a></li>
-							<li><a href="/blog/Charts/MorrisChart">Morris.js Charts</a></li>
+							<li><a href="/blog/Charts/FloatChart">통계자료</a></li>
+							<!-- <li><a href="/blog/Charts/MorrisChart">Morris.js Charts</a></li> -->
 						</ul> <!-- /.nav-second-level --></li>
 					<li><a href="/blog/Table/Tables"><i class="fa fa-table fa-fw"></i>
 							Tables</a></li>
-					<li><a href="/blog/Form/Form"><i class="fa fa-edit fa-fw"></i>
+					<!-- <li><a href="/blog/Form/Form"><i class="fa fa-edit fa-fw"></i>
 							Forms</a></li>
 					<li><a href="#"><i class="fa fa-wrench fa-fw"></i> UI
 							Elements<span class="fa arrow"></span></a>
@@ -270,7 +270,7 @@
 							<li><a href="/blog/UiElement/Typography">Typography</a></li>
 							<li><a href="/blog/UiElement/Icons"> Icons</a></li>
 							<li><a href="/blog/UiElement/Grid">Grid</a></li>
-						</ul> <!-- /.nav-second-level --></li>
+						</ul> /.nav-second-level</li>
 					<li><a href="#"><i class="fa fa-sitemap fa-fw"></i>
 							Multi-Level Dropdown<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
@@ -282,14 +282,14 @@
 									<li><a href="#">Third Level Item</a></li>
 									<li><a href="#">Third Level Item</a></li>
 									<li><a href="#">Third Level Item</a></li>
-								</ul> <!-- /.nav-third-level --></li>
-						</ul> <!-- /.nav-second-level --></li>
+								</ul> /.nav-third-level</li>
+						</ul> /.nav-second-level</li>
 					<li><a href="#"><i class="fa fa-files-o fa-fw"></i> Sample
 							Pages<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
 							<li><a href="/blog/SamplePages/Blank">Blank Page</a></li>
 							<li><a href="/blog/Login/Login">Login Page</a></li>
-						</ul> <!-- /.nav-second-level --></li>
+						</ul> /.nav-second-level</li> -->
 				</ul>
 			</div>
 			<!-- /.sidebar-collapse -->
@@ -299,7 +299,7 @@
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Flot</h1>
+					<h1 class="page-header">통계</h1>
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
@@ -307,7 +307,25 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="panel panel-default">
-						<div class="panel-heading">Line Chart Example</div>
+						<div class="panel-heading">월별 불법주정차 단속 건수
+						<div class="pull-right">
+								<div class="btn-group">
+									<button type="button"
+										class="btn btn-default btn-xs dropdown-toggle"
+										data-toggle="dropdown">
+										분류 <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="#">분류1</a></li>
+										<li><a href="#">분류2</a></li>
+										<li><a href="#">분류3</a></li>
+										<li class="divider"></li>
+										<li><a href="./Charts/FloatChart">전체 보기</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
 						<!-- /.panel-heading -->
 						<div class="panel-body">
 							<div class="flot-chart">
@@ -321,11 +339,11 @@
 				<!-- /.col-lg-12 -->
 				<div class="col-lg-6">
 					<div class="panel panel-default">
-						<div class="panel-heading">Pie Chart Example</div>
+						<div class="panel-heading">구별 불법주정차 단속 건수</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">
 							<div class="flot-chart">
-								<div class="flot-chart-content" id="flot-pie-chart"></div>
+								<div class="flot-chart-content" id="flot-line-chart-multi"></div>
 							</div>
 						</div>
 						<!-- /.panel-body -->
@@ -335,12 +353,12 @@
 				<!-- /.col-lg-6 -->
 				<div class="col-lg-6">
 					<div class="panel panel-default">
-						<div class="panel-heading">Multiple Axes Line Chart Example
+						<div class="panel-heading">중요요인 반경50M 단속건수
 						</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">
 							<div class="flot-chart">
-								<div class="flot-chart-content" id="flot-line-chart-multi"></div>
+								<div class="flot-chart-content" id="flot-bar-chart"></div>
 							</div>
 						</div>
 						<!-- /.panel-body -->

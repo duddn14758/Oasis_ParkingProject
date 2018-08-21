@@ -52,7 +52,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">SB Admin v2.0</a>
+                <a class="navbar-brand" href="/">0A51S</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -281,16 +281,13 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="/blog/Login/Login"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="/blog/"><i class="fa fa-dashboard fa-fw"></i> Home</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/blog/Charts/FloatChart">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="/blog/Charts/MorrisChart">Morris.js Charts</a>
+                                    <a href="/blog/Charts/FloatChart">통계자료</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -298,7 +295,7 @@
                         <li>
                             <a href="/blog/Table/Tables"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="/blog/Form/Form"><i class="fa fa-edit fa-fw"></i> Forms</a>
                         </li>
                         <li>
@@ -323,7 +320,7 @@
                                     <a href="/blog/UiElement/Grid">Grid</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
+                            /.nav-second-level
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
@@ -350,10 +347,10 @@
                                             <a href="#">Third Level Item</a>
                                         </li>
                                     </ul>
-                                    <!-- /.nav-third-level -->
+                                    /.nav-third-level
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
+                            /.nav-second-level
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
@@ -365,8 +362,8 @@
                                     <a href="/blog/Login/Login">Login Page</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
+                            /.nav-second-level
+                        </li> -->
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -386,7 +383,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                            불법주정차 민원 단속 데이터
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -528,7 +525,7 @@
                                         <td class="center">A</td>
                                     </tr>
                                     <tr class="gradeA">
-                                        <td>Gecko</td>
+                                        <td>진호</td>
                                         <td>Mozilla 1.3</td>
                                         <td>Win 95+ / OSX.1+</td>
                                         <td class="center">1.3</td>

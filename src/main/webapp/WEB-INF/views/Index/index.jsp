@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Insert title here</title>
+<title>불법주정차 통계청</title>
 <!-- Bootstrap Core CSS -->
 <link href="/blog/resources/vendor/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
@@ -49,7 +49,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">SB Admin v2.0</a>
+			<a class="navbar-brand" href="/blog">0A51S</a>
 		</div>
 		<!-- /.navbar-header -->
 
@@ -223,8 +223,8 @@
 					<li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
 					</li>
 					<li class="divider"></li>
-					<li><a href="./Login/Login"><i class="fa fa-sign-out fa-fw"></i>
-							Logout</a></li>
+					<li><a href="./Login/Login"><i
+							class="fa fa-sign-out fa-fw"></i> Logout</a></li>
 				</ul> <!-- /.dropdown-user --></li>
 			<!-- /.dropdown -->
 		</ul>
@@ -243,17 +243,17 @@
 							</span>
 						</div> <!-- /input-group -->
 					</li>
-					<li><a href="/"><i class="fa fa-dashboard fa-fw"></i>
-							Dashboard</a></li>
+					<li><a href="/blog"><i class="fa fa-dashboard fa-fw"></i>
+							Home</a></li>
 					<li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>
 							Charts<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
-							<li><a href="./Charts/FloatChart">Flot Charts</a></li>
-							<li><a href="./Charts/MorrisChart">Morris.js Charts</a></li>
+							<li><a href="./Charts/FloatChart">통계자료</a></li>
+							<!--<li><a href="./Charts/MorrisChart">Morris.js Charts</a></li>-->
 						</ul> <!-- /.nav-second-level --></li>
 					<li><a href="./Table/Tables"><i class="fa fa-table fa-fw"></i>
 							Tables</a></li>
-					<li><a href="./Form/Form"><i class="fa fa-edit fa-fw"></i>
+					<!-- <li><a href="./Form/Form"><i class="fa fa-edit fa-fw"></i>
 							Forms</a></li>
 					<li><a href="#"><i class="fa fa-wrench fa-fw"></i> UI
 							Elements<span class="fa arrow"></span></a>
@@ -264,7 +264,7 @@
 							<li><a href="./UiElement/Typography">Typography</a></li>
 							<li><a href="./UiElement/Icons"> Icons</a></li>
 							<li><a href="./UiElement/Grid">Grid</a></li>
-						</ul> <!-- /.nav-second-level --></li>
+						</ul> /.nav-second-level</li>
 					<li><a href="#"><i class="fa fa-sitemap fa-fw"></i>
 							Multi-Level Dropdown<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
@@ -276,14 +276,14 @@
 									<li><a href="#">Third Level Item</a></li>
 									<li><a href="#">Third Level Item</a></li>
 									<li><a href="#">Third Level Item</a></li>
-								</ul> <!-- /.nav-third-level --></li>
-						</ul> <!-- /.nav-second-level --></li>
+								</ul> /.nav-third-level</li>
+						</ul> /.nav-second-level</li>
 					<li><a href="#"><i class="fa fa-files-o fa-fw"></i> Sample
 							Pages<span class="fa arrow"></span></a>
 						<ul class="nav nav-second-level">
 							<li><a href="./SamplePages/Blank">Blank Page</a></li>
 							<li><a href="./Login/Login">Login Page</a></li>
-						</ul> <!-- /.nav-second-level --></li>
+						</ul> /.nav-second-level</li> -->
 				</ul>
 			</div>
 			<!-- /.sidebar-collapse -->
@@ -293,227 +293,34 @@
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Dashboard</h1>
+					<h1 class="page-header">불법주정차 민원 데이터 통계</h1>
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
 			<!-- /.row -->
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-comments fa-5x"></i>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">26</div>
-									<div>New Comments!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer">
-								<span class="pull-left">View Details</span> <span
-									class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="panel panel-green">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-tasks fa-5x"></i>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">12</div>
-									<div>New Tasks!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer">
-								<span class="pull-left">View Details</span> <span
-									class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="panel panel-yellow">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-shopping-cart fa-5x"></i>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">124</div>
-									<div>New Orders!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer">
-								<span class="pull-left">View Details</span> <span
-									class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="panel panel-red">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-support fa-5x"></i>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">13</div>
-									<div>Support Tickets!</div>
-								</div>
-							</div>
-						</div>
-						<a href="#">
-							<div class="panel-footer">
-								<span class="pull-left">View Details</span> <span
-									class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-								<div class="clearfix"></div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<!-- /.row -->
-			<div class="row">
-				<div class="col-lg-8">
+				<div class="col-lg">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-							<div class="pull-right">
-								<div class="btn-group">
-									<button type="button"
-										class="btn btn-default btn-xs dropdown-toggle"
-										data-toggle="dropdown">
-										Actions <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu pull-right" role="menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li class="divider"></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</div>
-							</div>
+							<i class="fa fa-bar-chart-o fa-fw"></i> 배경
 						</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">
-							<div id="morris-area-chart"></div>
+							<p>불법 주정차 차량은 주변 거주민의 불편을 야기하고 공익을 저해하는 사회 문제이다. 주차 공간 부족으로
+								인한 공간적 제약 때문에 발생한 사회 현상이므로 불법 주정차 문제를 완전히 해소하기는 어려운 실정이다. 이러한
+								제한된 상황에서 불법 주정차 차량에 관련 불편을 해소하기 위해서는 불법 주정차 차량에 대한 민원 다발 지역의 요인을
+								우선적으로 분석이 필요하다.</p>
 						</div>
 						<!-- /.panel-body -->
 					</div>
 					<!-- /.panel -->
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-							<div class="pull-right">
-								<div class="btn-group">
-									<button type="button"
-										class="btn btn-default btn-xs dropdown-toggle"
-										data-toggle="dropdown">
-										Actions <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu pull-right" role="menu">
-										<li><a href="#">Action</a></li>
-										<li><a href="#">Another action</a></li>
-										<li><a href="#">Something else here</a></li>
-										<li class="divider"></li>
-										<li><a href="#">Separated link</a></li>
-									</ul>
-								</div>
-							</div>
+							<i class="fa fa-bar-chart-o fa-fw"></i> 시스템 구성도
 						</div>
 						<!-- /.panel-heading -->
 						<div class="panel-body">
-							<div class="row">
-								<div class="col-lg-4">
-									<div class="table-responsive">
-										<table class="table table-bordered table-hover table-striped">
-											<thead>
-												<tr>
-													<th>#</th>
-													<th>Date</th>
-													<th>Time</th>
-													<th>Amount</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>3326</td>
-													<td>10/21/2013</td>
-													<td>3:29 PM</td>
-													<td>$321.33</td>
-												</tr>
-												<tr>
-													<td>3325</td>
-													<td>10/21/2013</td>
-													<td>3:20 PM</td>
-													<td>$234.34</td>
-												</tr>
-												<tr>
-													<td>3324</td>
-													<td>10/21/2013</td>
-													<td>3:03 PM</td>
-													<td>$724.17</td>
-												</tr>
-												<tr>
-													<td>3323</td>
-													<td>10/21/2013</td>
-													<td>3:00 PM</td>
-													<td>$23.71</td>
-												</tr>
-												<tr>
-													<td>3322</td>
-													<td>10/21/2013</td>
-													<td>2:49 PM</td>
-													<td>$8345.23</td>
-												</tr>
-												<tr>
-													<td>3321</td>
-													<td>10/21/2013</td>
-													<td>2:23 PM</td>
-													<td>$245.12</td>
-												</tr>
-												<tr>
-													<td>3320</td>
-													<td>10/21/2013</td>
-													<td>2:15 PM</td>
-													<td>$5663.54</td>
-												</tr>
-												<tr>
-													<td>3319</td>
-													<td>10/21/2013</td>
-													<td>2:13 PM</td>
-													<td>$943.45</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-									<!-- /.table-responsive -->
-								</div>
-								<!-- /.col-lg-4 (nested) -->
-								<div class="col-lg-8">
-									<div id="morris-bar-chart"></div>
-								</div>
-								<!-- /.col-lg-8 (nested) -->
-							</div>
-							<!-- /.row -->
-						</div>
+							<img src="/blog/images/Hadoop-Enterprise-Data-warehouse.png" width="800" height="600">
 						<!-- /.panel-body -->
 					</div>
 					<!-- /.panel -->
@@ -850,11 +657,15 @@
 	<!-- Metis Menu Plugin JavaScript -->
 	<script src="/blog/resources/vendor/metisMenu/metisMenu.min.js"></script>
 
-	<!-- Morris Charts JavaScript -->
-	<script src="/blog/resources/vendor/raphael/raphael.min.js"></script>
-	<script src="/blog/resources/vendor/morrisjs/morris.min.js"></script>
-	<script src="/blog/resources/data/morris-data.js"></script>
-
+	<!-- Flot Charts JavaScript -->
+	<script src="/blog/resources/vendor/flot/excanvas.min.js"></script>
+	<script src="/blog/resources/vendor/flot/jquery.flot.js"></script>
+	<script src="/resources/vendor/flot/jquery.flot.pie.js"></script>
+	<script src="/blog/resources/vendor/flot/jquery.flot.resize.js"></script>
+	<script src="/blog/resources/vendor/flot/jquery.flot.time.js"></script>
+	<script
+		src="/blog/resources/vendor/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+	<script src="/blog/resources/data/flot-data.js"></script>
 	<!-- Custom Theme JavaScript -->
 	<script src="/blog/resources/dist/js/sb-admin-2.js"></script>
 </body>
