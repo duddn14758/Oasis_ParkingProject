@@ -1,9 +1,11 @@
 package sun.spring.test;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class test {
 	static int cnt = 0;
+	static ArrayList<String> idol = new ArrayList<String>();
 	public static void main(String[] args) {
 		System.out.println("시작");
 		Connection connection = null;
@@ -13,14 +15,14 @@ public class test {
 			connection = DriverManager.getConnection("jdbc:mysql://192.168.15.2/bigdata", "sqoop", "sqoop");
 			st = connection.createStatement();
 			String count = "";
-			String sql;
-			sql = "select * from parking where adr LIKE '%남구%';";
+			String sql = "select * from region_count;"; 
 			ResultSet rs = st.executeQuery(sql);
 			while (rs.next()) {
-				count = rs.getString("crackdown");
-				cnt += Integer.parseInt(count);
+				count = rs.getString("gun_gu");
+				idol.add(count);
 			}
-			System.out.println(cnt);
+			for(int i = 0; i<idol.size(); i++)
+				System.out.println(idol.get(i));
 			rs.close();
 			st.close();
 			connection.close();

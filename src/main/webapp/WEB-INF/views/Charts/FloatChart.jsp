@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>SB Admin 2 - Bootstrap Admin Theme</title>
+<title>불법주정차 통계청</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="/blog/resources/vendor/bootstrap/css/bootstrap.min.css"
@@ -55,7 +55,7 @@
 					class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/">0a51s</a>
+			<a class="navbar-brand" href="/">0A51S</a>
 		</div>
 		<!-- /.navbar-header -->
 
@@ -307,7 +307,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="panel panel-default">
-						<div class="panel-heading">월별 불법주정차 단속 건수
+						<div class="panel-heading">부산시 월별 불법주정차 단속 건수
 						<div class="pull-right">
 								<div class="btn-group">
 									<button type="button"
@@ -316,15 +316,30 @@
 										분류 <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu pull-right" role="menu">
-										<li><a href="#">분류1</a></li>
-										<li><a href="#">분류2</a></li>
-										<li><a href="#">분류3</a></li>
+										<li><a href="#">중구</a></li>
+										<li><a href="#">서구</a></li>
+										<li><a href="#">동구</a></li>
+										<li><a href="#">영도구</a></li>
+										<li><a href="#">부산진구</a></li>
+										<li><a href="#">동래구</a></li>
+										<li><a href="#">남구</a></li>
+										<li><a href="#">북구</a></li>
+										<li><a href="#">해운대구</a></li>
+										<li><a href="#">사하구</a></li>
+										<li><a href="#">금정구</a></li>
+										<li><a href="#">강서구</a></li>
+										<li><a href="#">연제구</a></li>
+										<li><a href="#">수영구</a></li>
+										<li><a href="#">사상구</a></li>
+										<li><a href="#">기장군</a></li>
 										<li class="divider"></li>
 										<li><a href="./Charts/FloatChart">전체 보기</a></li>
 									</ul>
 								</div>
 							</div>
+							
 						</div>
+						
 						
 						<!-- /.panel-heading -->
 						<div class="panel-body">
@@ -332,72 +347,87 @@
 								<div class="flot-chart-content" id="flot-line-chart"></div>
 							</div>
 						</div>
+						<div class="well">
+								<h4>DataTables Usage Information</h4>
+								<p>
+									DataTables is a very flexible, advanced tables plugin for
+									jQuery. In SB Admin, we are using a specialized version of
+									DataTables built for Bootstrap 3. We have also customized the
+									table headings to use Font Awesome icons in place of images.
+									For complete documentation on DataTables, visit their website
+									at <a target="_blank" href="https://datatables.net/">https://datatables.net/</a>.
+								</p>
+								<a class="btn btn-default btn-lg btn-block" target="_blank"
+									href="https://datatables.net/">View DataTables
+									Documentation</a>
+							</div>
 						<!-- /.panel-body -->
 					</div>
 					<!-- /.panel -->
 				</div>
+				
 				<!-- /.col-lg-12 -->
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">구별 불법주정차 단속 건수</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<div class="flot-chart">
 								<div class="flot-chart-content" id="flot-line-chart-multi"></div>
 							</div>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 				</div>
-				<!-- /.col-lg-6 -->
+				/.col-lg-6
 				<div class="col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">중요요인 반경50M 단속건수
 						</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<div class="flot-chart">
 								<div class="flot-chart-content" id="flot-bar-chart"></div>
 							</div>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 				</div>
-				<!-- /.col-lg-6 -->
+				/.col-lg-6
 				<div class="col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">Moving Line Chart Example</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<div class="flot-chart">
 								<div class="flot-chart-content" id="flot-line-chart-moving"></div>
 							</div>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 				</div>
-				<!-- /.col-lg-6 -->
+				/.col-lg-6
 				<div class="col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">Bar Chart Example</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<div class="flot-chart">
 								<div class="flot-chart-content" id="flot-bar-chart"></div>
 							</div>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 				</div>
-				<!-- /.col-lg-6 -->
+				/.col-lg-6
 				<div class="col-lg-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">Flot Charts Usage</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<p>
 								Flot is a pure JavaScript plotting library for jQuery, with a
@@ -413,10 +443,10 @@
 								href="http://www.flotcharts.org/">View Flot Charts
 								Documentation</a>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
-				</div>
+					/.panel
+				</div> -->
 				<!-- /.col-lg-6 -->
 			</div>
 			<!-- /.row -->

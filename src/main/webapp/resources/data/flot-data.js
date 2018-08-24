@@ -1,24 +1,23 @@
-
 //Flot Line Chart
 $(document).ready(function() {
 	plot();
 	function plot() {
 		var sin = [], cos = [];
-		sin.push([ 1,  cnt]);
-		cos.push([ 1,  599]);
-		sin.push([ 2,  378]);
-		cos.push([ 2,  576]);
-		sin.push([ 3,  687]);
-		cos.push([ 3,  766]);
-		sin.push([ 4,  708]);
+		sin.push([ 1,  19371]);
+		cos.push([ 1,  5456]);
+		sin.push([ 2,  5456]);
+		cos.push([ 2,  721]);
+		sin.push([ 3,  4858]);
+		cos.push([ 3,  62]);
+		sin.push([ 4,  721]);
 		cos.push([ 4,  576]);
-		sin.push([ 5,  587]);
+		sin.push([ 5,  5663]);
 		cos.push([ 5,  456]);
-		sin.push([ 6,  423]);
+		sin.push([ 6,  62]);
 		cos.push([ 6,  687]);
-		sin.push([ 7,  564]);
+		sin.push([ 7,  120]);
 		cos.push([ 7,  487]);
-		sin.push([ 8,  245]);
+		sin.push([ 8,  204]);
 		cos.push([ 8,  498]);
 		sin.push([ 9,  564]);
 		cos.push([ 9,  203]);
@@ -44,7 +43,7 @@ $(document).ready(function() {
 			},
 			yaxis : {
 				min : 0,
-				max : 1000
+				max : 8000
 			},
 			tooltip : true,
 			tooltipOpts : {
@@ -755,9 +754,7 @@ $(function() {
 			}
 		},
 		xaxis : {
-			mode : "time",
-			timeformat : "%m/%d",
-			minTickSize : [ 1, "day" ]
+			timeformat : "%s"
 		},
 		grid : {
 			hoverable : true
@@ -772,9 +769,9 @@ $(function() {
 	};
 	var barData = {
 		label : "bar",
-		data : [ [ 1354521600000, 1000 ], [ 1355040000000, 2000 ],
-				[ 1355223600000, 3000 ], [ 1355306400000, 4000 ],
-				[ 1355487300000, 5000 ], [ 1355571900000, 6000 ] ]
+		data : [ [ '남구', 1000 ], [ '동래구', 2000 ],
+				[ "영동구", 3000 ], [ "해운대구", 4000 ],
+				[ "", 5000 ], [ "", 6000 ] ]
 	};
 	$.plot($("#flot-bar-chart"), [ barData ], barOptions);
 

@@ -470,12 +470,12 @@
 					<!-- /.panel -->
 				</div>
 				<!-- /.col-lg-8 -->
-				<div class="col-lg-4">
+				<!-- <div class="col-lg-4">
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<i class="fa fa-bell fa-fw"></i> Notifications Panel
 						</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<div class="list-group">
 								<a href="#" class="list-group-item"> <i
@@ -511,12 +511,12 @@
 									class="pull-right text-muted small"><em>Yesterday</em> </span>
 								</a>
 							</div>
-							<!-- /.list-group -->
+							/.list-group
 							<a href="#" class="btn btn-default btn-block">View All Alerts</a>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<i class="fa fa-bar-chart-o fa-fw"></i> Donut Chart Example
@@ -525,9 +525,9 @@
 							<div id="morris-donut-chart"></div>
 							<a href="#" class="btn btn-default btn-block">View Details</a>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 					</div>
-					<!-- /.panel -->
+					/.panel
 					<div class="chat-panel panel panel-default">
 						<div class="panel-heading">
 							<i class="fa fa-comments fa-fw"></i> Chat
@@ -557,7 +557,7 @@
 								</ul>
 							</div>
 						</div>
-						<!-- /.panel-heading -->
+						/.panel-heading
 						<div class="panel-body">
 							<ul class="chat">
 								<li class="left clearfix"><span class="chat-img pull-left">
@@ -624,7 +624,7 @@
 									</div></li>
 							</ul>
 						</div>
-						<!-- /.panel-body -->
+						/.panel-body
 						<div class="panel-footer">
 							<div class="input-group">
 								<input id="btn-input" type="text" class="form-control input-sm"
@@ -635,11 +635,11 @@
 								</span>
 							</div>
 						</div>
-						<!-- /.panel-footer -->
+						/.panel-footer
 					</div>
-					<!-- /.panel .chat-panel -->
+					/.panel .chat-panel
 				</div>
-				<!-- /.col-lg-4 -->
+				/.col-lg-4 -->
 			</div>
 			<!-- /.row -->
 		</div>
