@@ -1,4 +1,3 @@
-
 //Flot Line Chart
 $(document).ready(function() {
 	plot();
@@ -587,16 +586,16 @@ $(function() {
 			[ 1220824800000, 0.7010 ], [ 1220911200000, 0.70050 ] ];
 
 	function euroFormatter(v, axis) {
-		return v.toFixed(axis.tickDecimals) + "€";
+		return v.toFixed(axis.tickDecimals) + "(건)";
 	}
 
 	function doPlot(position) {
 		$.plot($("#flot-line-chart-multi"), [ {
 			data : oilprices,
-			label : "Oil price ($)"
+			label : "불법 주차율 (건)"
 		}, {
 			data : exchangerates,
-			label : "USD/EUR exchange rate",
+			label : "인근 건물 (개)",
 			yaxis : 2
 		} ], {
 			xaxes : [ {
