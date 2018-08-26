@@ -3,7 +3,7 @@ $(document).ready(function() {
 	plot();
 	function plot() {
 		var sin = [], cos = [];
-		sin.push([ 1,  19371]);
+		sin.push([ 1,  345]);
 		cos.push([ 1,  5456]);
 		sin.push([ 2,  5456]);
 		cos.push([ 2,  721]);
